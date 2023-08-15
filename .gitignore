@@ -1,0 +1,9 @@
+*.py[cod]
+
+*.egg-info
+dist
+build
+
+.vscode
+
+_build

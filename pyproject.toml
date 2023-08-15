@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "django-suc"
+version = "0.0.3"
+authors = [
+    {name = "Yun Chin", email = "razzzer@gmail.com"},
+]
+readme = "README.rst"
+license = {file = "LICENSE"}
+classifiers = [
+    "Framework :: Django",
+    "Programming Language :: Python :: 3",
+]
+description = "Module for auto-naming unique constraint."
+dependencies = [
+    "django",
+]
