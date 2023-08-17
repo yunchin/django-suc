@@ -1,9 +1,15 @@
 *.py[cod]
+.DS_Store
 
+# Packages
 *.egg-info
 dist
 build
+_build
 
+# VS Code
 .vscode
 
-_build
+# Test
+.tox
+.pytest_cache
